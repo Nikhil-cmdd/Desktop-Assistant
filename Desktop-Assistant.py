@@ -34,8 +34,8 @@ def take_command():
         elif "siri" in command:
             command = command.replace('siri', '')
             print(command)
-        elif "" in command:
-            command = command.replace('', '')
+        elif "cortana" in command:
+            command = command.replace('cortana', '')
     except:
         pass
     return command
